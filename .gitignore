@@ -1,0 +1,6 @@
+#ignorando .venv
+.venv
+
+#ignorando tudo dendo de .venv para n versionar
+
+**/.venv/
