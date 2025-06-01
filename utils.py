@@ -47,8 +47,8 @@ def convert_csv(df):
     return df.to_csv(index=False).encode('utf-8')
 
 def mensagem_sucesso():
-    sucess = st.sucess(
+    success = st.success(
         'Arquivo baixado com sucesso',
                        )
     time.sleep(3)
-    sucess.empty()
+    success.empty()
